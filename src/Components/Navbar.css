@@ -1,0 +1,24 @@
+.Nav-header{
+    display: flex;
+    background-color: black;
+    height: 100px;
+}
+
+.Nav-title{
+    color: aliceblue;
+    padding-bottom: 100px;
+    padding-left: 30px;
+}
+
+.Nav-logo{
+    height: 80px;
+    padding-top: 20px;
+    margin-left: 50px;
+}
+
+.Nav-text{
+    color: aliceblue;
+    padding-top: 40px;
+    padding-left: 600px;
+    font-weight: 600;
+}
