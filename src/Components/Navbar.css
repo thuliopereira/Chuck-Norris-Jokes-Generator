@@ -8,6 +8,7 @@
     color: aliceblue;
     padding-bottom: 100px;
     padding-left: 30px;
+    font-size: 46px;
 }
 
 .Nav-logo{
@@ -18,7 +19,7 @@
 
 .Nav-text{
     color: aliceblue;
-    padding-top: 40px;
-    padding-left: 600px;
+    padding-top: 50px;
+    padding-left: 500px;
     font-weight: 600;
 }

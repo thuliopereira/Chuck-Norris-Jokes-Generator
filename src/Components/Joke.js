@@ -15,6 +15,8 @@ function Joke( {value} ) {
         }
     }
 
+        
+
     useEffect(() => {
       fetchPiadas(value)
     }, [value]);
@@ -22,13 +24,8 @@ function Joke( {value} ) {
 
 return(
     <div className="Joke-container"> 
-        <h2 className="Joke-Joke">Joke</h2>
-        <div className="Joke-Box">
-            <div>
-            <div className="Joke-text">{piadas}</div> 
-            </div>
-        </div>
-        <button className="Joke-btn"> Alooo </button>
+        <div className="Joke-text">{piadas}</div> 
+        <button onClick={fetchPiadas} className="Joke-btn"> Tell me a new Joke 😃 </button>
     </div>
 )
 
